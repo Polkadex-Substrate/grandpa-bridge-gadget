@@ -20,9 +20,9 @@ pallet-session = { git = "https://github.com/paritytech/substrate", default-feat
 beefy-primitives = { path = "../beefy-primitives", default-features = false }
 
 [dev-dependencies]
-sp-core = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.1" }
-sp-io = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.1" }
-sp-staking = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.1" }
+sp-core = { git = "https://github.com/paritytech/substrate.git", branch = "kiz-guard-election-ecw-burnin" }
+sp-io = { git = "https://github.com/paritytech/substrate.git", branch = "kiz-guard-election-ecw-burnin" }
+sp-staking = { git = "https://github.com/paritytech/substrate.git", branch = "kiz-guard-election-ecw-burnin" }
 
 [features]
 default = ["std"]

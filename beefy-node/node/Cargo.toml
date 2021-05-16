@@ -16,7 +16,7 @@ name = "beefy-node"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
+substrate-build-script-utils = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
 
 [dependencies]
 jsonrpc-core = "15.0.0"
@@ -29,36 +29,36 @@ beefy-gadget-rpc = { version = "0.1.0", path = "../../beefy-gadget/rpc" }
 beefy-node-runtime = { path = "../runtime", version = "2.0.0" }
 
 # Substrate dependencies
-frame-benchmarking = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-pallet-transaction-payment-rpc = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
+frame-benchmarking = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+pallet-transaction-payment-rpc = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
 
-sc-basic-authorship = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sc-cli = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"], branch = "polkadot-v0.9.1" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sc-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sc-executor = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"], branch = "polkadot-v0.9.1" }
-sc-finality-grandpa = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sc-rpc = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sc-rpc-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sc-service = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"], branch = "polkadot-v0.9.1" }
-sc-telemetry = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sc-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
+sc-basic-authorship = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sc-cli = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"], branch = "kiz-guard-election-ecw-burnin" }
+sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sc-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sc-executor = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"], branch = "kiz-guard-election-ecw-burnin" }
+sc-finality-grandpa = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sc-rpc = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sc-rpc-api = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sc-service = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"], branch = "kiz-guard-election-ecw-burnin" }
+sc-telemetry = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sc-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
 
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-finality-grandpa = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
-sp-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
+sp-api = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-block-builder = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-finality-grandpa = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
+sp-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
 
-substrate-frame-rpc-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.1" }
+substrate-frame-rpc-system = { git = "https://github.com/paritytech/substrate", branch = "kiz-guard-election-ecw-burnin" }
 
 [features]
 default = []

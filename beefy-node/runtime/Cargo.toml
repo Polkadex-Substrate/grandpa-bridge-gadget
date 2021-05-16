@@ -29,11 +29,11 @@ beefy-primitives = { path = "../../beefy-primitives", default-features = false }
 pallet-beefy = { path = "../../beefy-pallet", default-features = false }
 
 # Substrate dependencies
-frame-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true, branch = "polkadot-v0.9.1" }
+frame-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true, branch = "kiz-guard-election-ecw-burnin" }
 frame-executive = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "kiz-guard-election-ecw-burnin" }
 frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "kiz-guard-election-ecw-burnin" }
 frame-system = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "kiz-guard-election-ecw-burnin" }
-frame-system-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true, branch = "polkadot-v0.9.1" }
+frame-system-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true, branch = "kiz-guard-election-ecw-burnin" }
 frame-system-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "kiz-guard-election-ecw-burnin" }
 pallet-aura = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "kiz-guard-election-ecw-burnin" }
 pallet-balances = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "kiz-guard-election-ecw-burnin" }
