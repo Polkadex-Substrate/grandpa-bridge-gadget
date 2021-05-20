@@ -34,6 +34,7 @@ use beefy_primitives::BeefyApi;
 mod error;
 mod gossip;
 mod metrics;
+mod pair;
 mod round;
 mod worker;
 
