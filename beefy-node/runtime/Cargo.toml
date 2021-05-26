@@ -29,32 +29,32 @@ beefy-primitives = { path = "../../beefy-primitives", default-features = false }
 pallet-beefy = { path = "../../beefy-pallet", default-features = false }
 
 # Substrate dependencies
-frame-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true, branch = "master" }
-frame-executive = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-frame-system = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-frame-system-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true, branch = "master" }
-frame-system-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-aura = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-balances = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-grandpa = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-mmr = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-randomness-collective-flip = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-sudo = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-timestamp = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-consensus-aura = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-offchain = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-session = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-transaction-pool = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-version = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
+frame-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true, branch = "shawntabrizi-maxboundedlen-start" }
+frame-executive = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+frame-system = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+frame-system-benchmarking = { git = "https://github.com/paritytech/substrate", default-features = false, optional = true, branch = "shawntabrizi-maxboundedlen-start" }
+frame-system-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-aura = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-balances = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-grandpa = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-mmr = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-randomness-collective-flip = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-sudo = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-timestamp = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-api = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-block-builder = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-consensus-aura = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-core = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-inherents = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-offchain = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-session = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-transaction-pool = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
+sp-version = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "shawntabrizi-maxboundedlen-start" }
 
 [features]
 default = ["std"]
